@@ -1,0 +1,88 @@
+:root {
+    /* Фон */
+    --bg: #f7f9fb;
+    --bg-dark: #edf2f6;
+    --bg-deep: #e2e9ef;
+
+    /* Поверхности */
+    --surface: rgba(255, 255, 255, 0.62);
+    --surface-hover: rgba(255, 255, 255, 0.78);
+    --surface-dark: rgba(80, 100, 120, 0.07);
+
+    /* Текст */
+    --text: #27313b;
+    --text-secondary: #596673;
+    --text-muted: #8996a3;
+
+    /* Границы */
+    --border: rgba(255, 255, 255, 0.75);
+    --border-dark: rgba(60, 80, 100, 0.14);
+
+    /* Акцент */
+    --accent: #d4deff;
+    --accent-hover: #e3e9ff;
+    --accent-text: #344252;
+
+    /* Стекло */
+    --glass: rgba(255, 255, 255, 0.48);
+    --glass-strong: rgba(255, 255, 255, 0.68);
+    --glass-border: rgba(255, 255, 255, 0.75);
+
+    /* Тени */
+    --shadow:
+        0 25px 60px rgba(55, 75, 95, 0.12);
+
+    --shadow-small:
+        0 10px 30px rgba(55, 75, 95, 0.08);
+
+    /* Дополнительные */
+    --input-bg: rgba(70, 90, 110, 0.055);
+    --table-head: rgba(255, 255, 255, 0.50);
+    --overlay-light: rgba(255, 255, 255, 0.55);
+    --glow: rgba(180, 200, 255, 0.20);
+}
+
+body[data-theme="dark"] {
+
+    /* Фон */
+    --bg: #060708;
+    --bg-dark: #141a20;
+    --bg-deep: #080b0e;
+
+    /* Поверхности */
+    --surface: rgba(235, 242, 248, 0.045);
+    --surface-hover: rgba(235, 242, 248, 0.075);
+    --surface-dark: rgba(0, 0, 0, 0.24);
+
+    /* Текст */
+    --text: #edf2f7;
+    --text-secondary: #b7c2ce;
+    --text-muted: #7d8995;
+
+    /* Границы */
+    --border: rgba(255, 255, 255, 0.095);
+    --border-dark: rgba(0, 0, 0, 0.38);
+
+    /* Акцент */
+    --accent: #aebeff;
+    --accent-hover: #c2ceff;
+    --accent-text: #252c35;
+
+    /* Стекло */
+    --glass: rgba(235, 242, 248, 0.045);
+    --glass-strong: rgba(235, 242, 248, 0.075);
+    --glass-border: rgba(255, 255, 255, 0.095);
+
+    /* Тени */
+    --shadow:
+        0 25px 60px rgba(0, 0, 0, 0.48);
+
+    --shadow-small:
+        0 10px 30px rgba(0, 0, 0, 0.34);
+
+    /* Дополнительные */
+    --input-bg: rgba(0, 0, 0, 0.22);
+    --table-head: rgba(255, 255, 255, 0.035);
+    --overlay-light: rgba(255, 255, 255, 0.025);
+    --glow: rgba(160, 180, 255, 0.12);
+}
