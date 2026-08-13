@@ -12,8 +12,8 @@
     --text-muted: #8996a3;
 
     /* Границы */
-    --border: rgba(255, 255, 255, 0.75);
-    --border-dark: rgba(60, 80, 100, 0.14);
+    --border-color: rgba(255, 255, 255, 0.75);
+    --border-color-dark: rgba(60, 80, 100, 0.14);
 
     /* Акцент */
     --accent: #d4deff;
@@ -48,8 +48,8 @@ body[data-theme="dark"] {
     --text-muted: #7d8995;
 
     /* Границы */
-    --border: rgba(255, 255, 255, 0.095);
-    --border-dark: rgba(0, 0, 0, 0.38);
+    --border-color: rgba(255, 255, 255, 0.095);
+    --border-color-dark: rgba(0, 0, 0, 0.38);
 
     /* Акцент */
     --accent: #aebeff;
