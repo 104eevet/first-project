@@ -1,6 +1,17 @@
+@use "../abstracts/variables" as v;
+
 @mixin flex-center($direction: row) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin surface-element {
+  border: 1px solid var(--border-color);
+  border-radius: v.$border-btn-radius;
+
+  background-color: var(--surface);
+
+  box-shadow: var(--shadow-small);
 }
