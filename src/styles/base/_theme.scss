@@ -13,7 +13,6 @@
 
     /* Границы */
     --border-color: rgba(255, 255, 255, 0.75);
-    --border-color-dark: rgba(60, 80, 100, 0.14);
 
     /* Акцент */
     --accent: #d4deff;
@@ -30,7 +29,7 @@
         0 25px 60px rgba(55, 75, 95, 0.12);
 
     --shadow-small:
-        0 10px 30px rgba(55, 75, 95, 0.08);
+        0 0 20px rgba(55, 75, 95, 0.12);
 }
 
 body[data-theme="dark"] {
@@ -49,7 +48,6 @@ body[data-theme="dark"] {
 
     /* Границы */
     --border-color: rgba(255, 255, 255, 0.095);
-    --border-color-dark: rgba(0, 0, 0, 0.38);
 
     /* Акцент */
     --accent: #aebeff;
@@ -66,5 +64,5 @@ body[data-theme="dark"] {
         0 25px 60px rgba(0, 0, 0, 0.48);
 
     --shadow-small:
-        0 10px 30px rgba(0, 0, 0, 0.34);
+        0 0 20px rgba(0, 0, 0, 0.34);
 }
