@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 
-.header {
+header {
   position: sticky;
   top: 18px;
   z-index: 100;
@@ -19,6 +19,6 @@
   @include m.flex-center;
 }
 
-.main {
+main {
   flex: 1;
 }
