@@ -2,6 +2,10 @@
 @use '../abstracts/mixins' as m;
 
 .header {
+    position: sticky;
+    top: 18px;
+    z-index: 100;
+
     padding: clamp(8px, 0.8vw, 12px) clamp(12px, 1vw, 16px);
 
     width: 100%;

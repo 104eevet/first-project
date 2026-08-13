@@ -1,5 +1,3 @@
-@use "../abstracts/mixins" as m;
-
 .page {
   position: relative;
   margin: 0 auto;
@@ -11,14 +9,6 @@
   flex-direction: column;
 }
 
-header {
-  position: sticky;
-  top: 18px;
-  z-index: 100;
-
-  @include m.flex-center;
-}
-
-main {
+.main {
   flex: 1;
 }
