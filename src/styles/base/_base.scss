@@ -1,8 +1,16 @@
 @use '../abstracts/variables' as f;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: f.$font-primary;
     color: var(--text);
 
     background-color: var(--bg);
+}
+
+section {
+  scroll-margin-top: 100px;
 }
