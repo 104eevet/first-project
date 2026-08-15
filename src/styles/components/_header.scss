@@ -22,7 +22,7 @@
 
     box-shadow: var(--shadow);
 
-    backdrop-filter: blur(24px);
+    backdrop-filter: blur(30px);
 
     &__logo {
         @include m.flex-center;

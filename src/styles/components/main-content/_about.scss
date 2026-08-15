@@ -1,0 +1,105 @@
+@use '../../abstracts/mixins' as m;
+@use '../../abstracts/variables' as v;
+
+.about {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__title {
+        h2 {
+            font-size: clamp(1.4rem, 1.4vw, 2rem);
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        p {
+            font-family: v.$font-secondary;
+            font-size: max(0.6vw, 0.7rem);
+            color: var(--text-secondary);
+        }
+    }
+
+    &__cards {
+        max-width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: max(14px, 1vw);
+    }
+
+    &__card {
+        @include m.surface-element;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        padding: 24px 12px;
+
+        gap: clamp(16px, 2vw, 30px);
+
+        border-radius: v.$border-radius;
+
+        &-logo {
+            @include m.flex-center;
+
+            width: 100%;
+        }
+
+        &-description {
+            @include m.flex-center(column);
+
+            width: 100%;
+
+            gap: 8px;
+        }
+
+        &-list {
+            @include m.surface-element;
+
+            padding: 4px 10px;
+
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-title {
+            font-size: clamp(1.1rem, 1vw, 1.6rem);
+            font-weight: 700;
+            color: var(--text);
+        }
+        
+        &-item{
+
+            display: flex;
+            align-items: center;
+            gap: 3px;
+
+            font-size: clamp(0.65rem, 1vw, 1rem);
+            font-weight: 700;
+            color: var(--text-secondary);
+
+            &::before {
+            content: "•";
+
+            font-size: 18px;
+
+            flex-shrink: 0;
+
+            color: var(--accent);
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
