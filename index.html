@@ -1,164 +1,195 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru" translate="no">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google" content="notranslate" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
 
-    <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/scripts/main.js"></script>
 
-    <title>untitled</title>
-  </head>
+  <title>untitled</title>
+</head>
 
-  <body data-theme="dark">
-    <div class="page">
-      <header class="header">
-        <div class="header__logo">
-          <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M0.5 6.92986C1.28486 5.83308 3.66303 2.7162 6.44683 0.962935C8.53978 -0.35525 10.5164 1.38489 8.98359 3.13731C7.48449 4.85123 5.47392 7.21002 4.61568 8.38125C3.72627 9.59504 5.24869 11.0628 6.77256 9.66564C7.79093 8.73189 8.85209 7.65771 9.93077 6.86398C11.3866 5.79282 12.6352 6.73867 11.9997 7.94614C11.5405 8.81862 11.2076 9.20414 10.8239 9.93844C10.4403 10.6728 10.8463 11.5534 11.4277 11.6289C12.1479 11.7225 12.6034 11.2063 13.2188 10.4013"
-              stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-          </svg>
+<body data-theme="dark">
+  <div class="page">
+    <header class="header">
+      <div class="header__logo">
+        <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0.5 6.92986C1.28486 5.83308 3.66303 2.7162 6.44683 0.962935C8.53978 -0.35525 10.5164 1.38489 8.98359 3.13731C7.48449 4.85123 5.47392 7.21002 4.61568 8.38125C3.72627 9.59504 5.24869 11.0628 6.77256 9.66564C7.79093 8.73189 8.85209 7.65771 9.93077 6.86398C11.3866 5.79282 12.6352 6.73867 11.9997 7.94614C11.5405 8.81862 11.2076 9.20414 10.8239 9.93844C10.4403 10.6728 10.8463 11.5534 11.4277 11.6289C12.1479 11.7225 12.6034 11.2063 13.2188 10.4013"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+        </svg>
 
-          <a href="">untitled</a>
+        <a href="">untitled</a>
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__btn">Войти</button>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__badge">
+          <p>first project</p>
         </div>
 
-        <nav class="header__nav">
-          <ul class="header__links">
-            <li><a href="#home">Главная</a></li>
-            <li><a href="#skills">Навыки</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-          </ul>
-        </nav>
+        <h1 class="hero__title">
+          Portfolio
+          <br />
+          <span>Bocharov Ilya</span>
+          <br />
+          <span>Frontend Developer</span>
+        </h1>
 
-        <button class="header__btn">Войти</button>
-      </header>
+        <p class="hero__description">
+          Мой первый проект в портфолио
+          <br />
+          Изучаю frontend-разработку и создаю современные интерфейсы, уделяя
+          внимание адаптивности и чистому коду
+        </p>
 
-      <main class="main">
-        <section class="hero">
-          <div class="hero__badge">
-            <p>first project</p>
+        <a class="hero__btn" href="#skills">Что умею</a>
+      </section>
+
+      <section class="about">
+        <div class="about__title">
+          <h2>О проекте</h2>
+          <p>Что использовал при создании сайта</p>
+        </div>
+
+        <div class="about__cards">
+          <article class="about__card">
+            <div class="about__card-logo">
+              <img src="/icons/html-logo.svg" alt="логотип html">
+            </div>
+
+            <div class="about__card-description">
+              <h3 class="about__card-title">HTML</h3>
+              <ul class="about__card-list">
+                <li class="about__card-item">Семантические теги</li>
+                <li class="about__card-item">Методология БЭМ</li>
+                <li class="about__card-item">a11y</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="about__card">
+            <div class="about__card-logo">
+              <img src="/icons/sass-logo.svg" alt="логотип sass">
+            </div>
+
+            <div class="about__card-description">
+              <h3 class="about__card-title">Sass</h3>
+              <ul class="about__card-list">
+                <li class="about__card-item">Миксины</li>
+                <li class="about__card-item">Адаптивность</li>
+                <li class="about__card-item">SCSS-переменные</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="about__card">
+            <div class="about__card-logo">
+              <img src="/icons/js-logo.svg" alt="логотип javascript">
+            </div>
+
+            <div class="about__card-description">
+              <h3 class="about__card-title">JavaScript</h3>
+              <ul class="about__card-list">
+                <li class="about__card-item">Карусель скиллов</li>
+                <li class="about__card-item">Переключение темы</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="about__card">
+            <div class="about__card-logo">
+              <img src="/icons/git-logo.svg" alt="логотип git">
+            </div>
+
+            <div class="about__card-description">
+              <h3 class="about__card-title">Git</h3>
+              <ul class="about__card-list">
+                <li class="about__card-item">Ветвление</li>
+                <li class="about__card-item">Git branches и merge</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="about__card">
+            <div class="about__card-logo">
+              <img src="/icons/vite-logo.svg" alt="логотип vite">
+            </div>
+
+            <div class="about__card-description">
+              <h3 class="about__card-title">Vite</h3>
+              <ul class="about__card-list">
+                <li class="about__card-item">Быстрый dev-сервер</li>
+                <li class="about__card-item">Сборка проекта</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="about__card">
+            <div class="about__card-logo">
+              <img src="/icons/github-logo.svg" alt="логотип github">
+            </div>
+
+            <div class="about__card-description">
+              <h3 class="about__card-title">GitHub</h3>
+              <ul class="about__card-list">
+                <li class="about__card-item">Remote-репозиторий</li>
+                <li class="about__card-item">GitHub Pages</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="skills__title">
+          <h2>Мои навыки</h2>
+          <p>Что уже знаю и что планирую учить</p>
+        </div>
+
+        <div class="skills__slider">
+          <div class="skills__viewport">
+            <div class="skills__track" data-skills-track></div>
           </div>
 
-          <h1 class="hero__title">
-            Portfolio
-            <br />
-            <span>Bocharov Ilya</span>
-            <br />
-            <span>Frontend Developer</span>
-          </h1>
+          <div class="skills__controls">
+            <button class="skills__button" type="button" data-skills-prev aria-label="Предыдущий навык">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 19.92L8.48 13.4C7.71 12.63 7.71 11.37 8.48 10.6L15 4.07996" stroke-width="2.5"
+                  stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
 
-          <p class="hero__description">
-            Мой первый проект в портфолио
-            <br />
-            Изучаю frontend-разработку и создаю современные интерфейсы, уделяя
-            внимание адаптивности и чистому коду
-          </p>
-
-          <a class="hero__btn" href="#skills">Что умею</a>
-        </section>
-
-        <section class="about">
-          <div class="about__title">
-            <h2>О проекте</h2>
-            <p>Что использовал при создании сайта</p>
+            <button class="skills__button" type="button" data-skills-next aria-label="Следующий навык">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.91 19.92L15.43 13.4C16.2 12.63 16.2 11.37 15.43 10.6L8.91 4.07996" stroke-width="2.5"
+                  stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
           </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
 
-          <div class="about__cards">
-            <div class="about__card">
-              <div class="about__card-logo">
-                <img src="/icons/html-logo.svg" alt="логотип html">
-              </div>
-
-              <div class="about__card-description">
-                <h3 class="about__card-title">HTML</h3>
-                <ul class="about__card-list">
-                  <li class="about__card-item">Семантические теги</li>
-                  <li class="about__card-item">Методология БЭМ</li>
-                  <li class="about__card-item">a11y</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="about__card">
-              <div class="about__card-logo">
-                <img src="/icons/sass-logo.svg" alt="логотип sass">
-              </div>
-
-              <div class="about__card-description">
-                <h3 class="about__card-title">Sass</h3>
-                <ul class="about__card-list">
-                  <li class="about__card-item">Миксины</li>
-                  <li class="about__card-item">Адаптивность</li>
-                  <li class="about__card-item">SCSS-переменные</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="about__card">
-              <div class="about__card-logo">
-                <img src="/icons/js-logo.svg" alt="логотип javascript">
-              </div>
-
-              <div class="about__card-description">
-                <h3 class="about__card-title">JavaScript</h3>
-                <ul class="about__card-list">
-                  <li class="about__card-item">Карусель скиллов</li>
-                  <li class="about__card-item">Переключение темы</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="about__card">
-              <div class="about__card-logo">
-                <img src="/icons/git-logo.svg" alt="логотип git">
-              </div>
-
-              <div class="about__card-description">
-                <h3 class="about__card-title">Git</h3>
-                <ul class="about__card-list">
-                  <li class="about__card-item">Ветвление</li>
-                  <li class="about__card-item">Git branches и merge</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="about__card">
-              <div class="about__card-logo">
-                <img src="/icons/vite-logo.svg" alt="логотип vite">
-              </div>
-
-              <div class="about__card-description">
-                <h3 class="about__card-title">Vite</h3>
-                <ul class="about__card-list">
-                  <li class="about__card-item">Быстрый dev-сервер</li>
-                  <li class="about__card-item">Сборка проекта</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="about__card">
-              <div class="about__card-logo">
-                <img src="/icons/github-logo.svg" alt="логотип github">
-              </div>
-
-              <div class="about__card-description">
-                <h3 class="about__card-title">GitHub</h3>
-                <ul class="about__card-list">
-                  <li class="about__card-item">Remote-репозиторий</li>
-                  <li class="about__card-item">GitHub Pages</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
-  </body>
 </html>
