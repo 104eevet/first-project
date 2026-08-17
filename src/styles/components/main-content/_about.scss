@@ -75,12 +75,13 @@
             color: var(--text);
         }
         
-        &-item{
+        &-item {
 
             display: flex;
             align-items: center;
             gap: 3px;
 
+            font-family: v.$font-secondary;
             font-size: clamp(0.65rem, 1vw, 1rem);
             font-weight: 700;
             color: var(--text-secondary);
