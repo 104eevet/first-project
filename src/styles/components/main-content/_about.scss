@@ -9,6 +9,8 @@
     gap: 20px;
 
     &__title {
+        margin-left: 20px;
+        
         h2 {
             font-size: clamp(1.4rem, 1.4vw, 2rem);
             font-weight: 700;
