@@ -44,6 +44,14 @@
 
         border-radius: v.$border-radius;
 
+        transition: 180ms ease;
+
+        &:hover {
+            transform: translateY(-4px);
+
+            background-color: var(--surface-hover);;
+        }
+
         &-logo {
             @include m.flex-center;
 
