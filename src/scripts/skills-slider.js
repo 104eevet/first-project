@@ -1,6 +1,6 @@
 const cardsData = [
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/html-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/html-logo.svg`,
     title: "HTML",
     description: `
       <p>Уверенно создаю структуру сайтов с помощью HTML5.</p>
@@ -8,7 +8,7 @@ const cardsData = [
     `,
   },
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/sass-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/sass-logo.svg`,
     title: "SASS",
     description: `
       <p>Использую SCSS, чтобы писать удобные и понятные стили.</p>
@@ -16,14 +16,14 @@ const cardsData = [
     `,
   },
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/react-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/react-logo.svg`,
     title: "React",
     description: `
       <p>Еще не знаю, но планирую изучить.</p>
     `,
   },
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/js-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/js-logo.svg`,
     title: "JavaScript",
     description: `
       <p>Уверенно использую JavaScript для создания интерактивности на сайтах.</p>
@@ -31,14 +31,14 @@ const cardsData = [
     `,
   },
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/ts-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/ts-logo.svg`,
     title: "TypeScript",
     description: `
       <p>Еще не знаю, но планирую изучить.</p>
     `,
   },
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/vite-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/vite-logo.svg`,
     title: "Vite",
     description: `
       <p>Знаком с основами Vite и использую его для разработки фронтенд-проектов.</p>
@@ -46,7 +46,7 @@ const cardsData = [
     `,
   },
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/git-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/git-logo.svg`,
     title: "Git",
     description: `
       <p>Знаю основные команды Git и использую его для работы над проектами.</p>
@@ -54,7 +54,7 @@ const cardsData = [
     `,
   },
   {
-    logo: "${import.meta.env.BASE_URL}tech-icons/tailwind-logo.svg",
+    logo: `${import.meta.env.BASE_URL}tech-icons/tailwind-logo.svg`,
     title: "Tailwind",
     description: `
       <p>Еще не знаю, но планирую изучить.</p>
