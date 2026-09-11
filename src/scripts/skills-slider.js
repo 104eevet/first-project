@@ -19,7 +19,7 @@ const cardsData = [
     logo: "/tech-icons/react-logo.svg",
     title: "React",
     description: `
-      <p>❌ Еще не знаю, но планирую изучить.</p>
+      <p>Еще не знаю, но планирую изучить.</p>
     `,
   },
   {
@@ -34,7 +34,7 @@ const cardsData = [
     logo: "/tech-icons/ts-logo.svg",
     title: "TypeScript",
     description: `
-      <p>❌ Еще не знаю, но планирую изучить.</p>
+      <p>Еще не знаю, но планирую изучить.</p>
     `,
   },
   {
@@ -57,7 +57,7 @@ const cardsData = [
     logo: "/tech-icons/tailwind-logo.svg",
     title: "Tailwind",
     description: `
-      <p>❌ Еще не знаю, но планирую изучить.</p>
+      <p>Еще не знаю, но планирую изучить.</p>
     `,
   },
 ];
