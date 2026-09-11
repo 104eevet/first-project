@@ -1,4 +1,8 @@
-:root {
+body[data-theme="light"] {
+    .header__toggle {
+        left: 42px;
+    }
+
     /* Фон */
     --bg: #f7f9fb;
 
@@ -33,6 +37,9 @@
 }
 
 body[data-theme="dark"] {
+    .header__toggle {
+        left: 1px;
+    }
 
     /* Фон */
     --bg: #060708;
