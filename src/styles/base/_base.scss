@@ -15,7 +15,7 @@ body {
     background:
         radial-gradient(
             circle at 40% 35%,
-            rgba(174, 190, 255, 0.06),
+            rgba(174, 190, 255, 0.009),
             transparent 24%
         ),
         var(--bg);
@@ -39,14 +39,14 @@ body {
 
         background:
             radial-gradient(
-                circle at 15% 35%,
-                rgba(174, 190, 255, 0.03),
-                transparent 12%
+                circle at 1% 10%,
+                rgba(235, 242, 248, 0.006),
+                transparent 40%
         ),
             radial-gradient(
-                circle at 85% 15%,
-                rgba(194, 206, 255, 0.03),
-                transparent 10%
+                circle at 98% 92%,
+                rgba(235, 242, 248, 0.006),
+                transparent 70%
         );
     }
 }
