@@ -19,11 +19,6 @@ body[data-theme="light"] {
   --accent-hover: #e3e9ff;
   --accent-text: #344252;
 
-  /* Стекло */
-  --glass: rgba(255, 255, 255, 0.48);
-  --glass-strong: rgba(255, 255, 255, 0.68);
-  --glass-border: rgba(255, 255, 255, 0.75);
-
   /* Тени */
   --shadow: 0 25px 60px rgba(55, 75, 95, 0.12);
 
@@ -50,11 +45,6 @@ body[data-theme="dark"] {
   --accent: #aebeff;
   --accent-hover: #c2ceff;
   --accent-text: #252c35;
-
-  /* Стекло */
-  --glass: rgba(235, 242, 248, 0.045);
-  --glass-strong: rgba(235, 242, 248, 0.075);
-  --glass-border: rgba(255, 255, 255, 0.095);
 
   /* Тени */
   --shadow: 0 25px 60px rgba(0, 0, 0, 0.48);
