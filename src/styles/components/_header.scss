@@ -10,6 +10,7 @@
     padding: clamp(8px, 0.8vw, 12px) clamp(12px, 1vw, 16px);
 
     width: 100%;
+    min-height: 60px;
 
     display: flex;
     justify-content: space-between;
@@ -79,22 +80,43 @@
     &__btn {
         @include m.surface-element;
 
-        padding: 6px 16px;
+        position: relative;
 
-        font-family: v.$font-secondary;
-        color: var(--text);
+        padding: 4px 4px;
+
+        width: 74px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        border-radius: 20px;
 
         transition: 250ms ease;
-
-        &:active {
-            transform: scale(0.95);
-        }
 
         &:focus-visible {
             outline: 2px solid var(--accent);
             outline-offset: 2px;
         }
+
+        svg {
+            width: 24px;
+            aspect-ratio: 1 / 1;
+
+            fill: var(--text-secondary);
         }
+
+        svg:first-child {
+            width: 28px;
+            aspect-ratio: 1 / 1;
+            position: absolute;
+
+            fill: var(--accent);
+            stroke: var(--accent);
+
+            transition: 200ms ease;
+        }        
+    }
 }
 
 @media (max-width: 768px) {
