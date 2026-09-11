@@ -11,6 +11,9 @@ body[data-theme="light"] {
   --text-secondary: #596673;
   --text-muted: #8996a3;
 
+  --title-text: color-mix(in srgb, var(--accent) 40%, #4B0B98 60%);
+  --title-text-secondary: color-mix(in srgb, var(--accent) 20%, #4B0B98 80%);
+
   /* Границы */
   --border-color: rgba(255, 255, 255, 0.75);
 
@@ -37,6 +40,9 @@ body[data-theme="dark"] {
   --text: #edf2f7;
   --text-secondary: #b7c2ce;
   --text-muted: #7d8995;
+
+  --title-text: #d4deff;
+  --title-text-secondary: color-mix(in srgb, var(--accent) 70%, #4B0B98 30%);
 
   /* Границы */
   --border-color: rgba(255, 255, 255, 0.095);
