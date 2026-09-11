@@ -46,6 +46,8 @@
 
         border-radius: v.$border-radius;
 
+        backdrop-filter: blur(30px);
+
         transition: 180ms ease;
 
         &:hover {

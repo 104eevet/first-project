@@ -72,7 +72,9 @@
 
     border-radius: v.$border-radius;
 
-    opacity: 0.4;
+    backdrop-filter: blur(30px);
+
+    opacity: 0.6;
 
     transition:
       opacity $skills-transition,
@@ -139,6 +141,8 @@
     aspect-ratio: 5 / 2;
 
     background: var(--surface);
+
+    backdrop-filter: blur(30px);
 
     cursor: pointer;
 

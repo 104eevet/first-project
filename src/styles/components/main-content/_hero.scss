@@ -20,6 +20,8 @@
 
     box-shadow: var(--shadow);
 
+    backdrop-filter: blur(30px);
+
     &__badge {
         @include m.flex-center;
         @include m.surface-element;
