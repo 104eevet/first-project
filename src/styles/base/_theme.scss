@@ -1,75 +1,75 @@
 body[data-theme="light"] {
-    .header__toggle {
-        left: 42px;
-    }
+  /* Фон */
+  --bg: #f7f9fb;
 
-    /* Фон */
-    --bg: #f7f9fb;
+  /* Поверхности */
+  --surface: rgba(255, 255, 255, 0.62);
+  --surface-hover: rgba(255, 255, 255, 0.78);
 
-    /* Поверхности */
-    --surface: rgba(255, 255, 255, 0.62);
-    --surface-hover: rgba(255, 255, 255, 0.78);
+  /* Текст */
+  --text: #27313b;
+  --text-secondary: #596673;
+  --text-muted: #8996a3;
 
-    /* Текст */
-    --text: #27313b;
-    --text-secondary: #596673;
-    --text-muted: #8996a3;
+  /* Границы */
+  --border-color: rgba(255, 255, 255, 0.75);
 
-    /* Границы */
-    --border-color: rgba(255, 255, 255, 0.75);
+  /* Акцент */
+  --accent: #d4deff;
+  --accent-hover: #e3e9ff;
+  --accent-text: #344252;
 
-    /* Акцент */
-    --accent: #d4deff;
-    --accent-hover: #e3e9ff;
-    --accent-text: #344252;
+  /* Стекло */
+  --glass: rgba(255, 255, 255, 0.48);
+  --glass-strong: rgba(255, 255, 255, 0.68);
+  --glass-border: rgba(255, 255, 255, 0.75);
 
-    /* Стекло */
-    --glass: rgba(255, 255, 255, 0.48);
-    --glass-strong: rgba(255, 255, 255, 0.68);
-    --glass-border: rgba(255, 255, 255, 0.75);
+  /* Тени */
+  --shadow: 0 25px 60px rgba(55, 75, 95, 0.12);
 
-    /* Тени */
-    --shadow:
-        0 25px 60px rgba(55, 75, 95, 0.12);
-
-    --shadow-small:
-        0 0 20px rgba(55, 75, 95, 0.12);
+  --shadow-small: 0 0 20px rgba(55, 75, 95, 0.12);
 }
 
 body[data-theme="dark"] {
-    .header__toggle {
-        left: 1px;
-    }
+  /* Фон */
+  --bg: #060708;
 
-    /* Фон */
-    --bg: #060708;
+  /* Поверхности */
+  --surface: rgba(235, 242, 248, 0.045);
+  --surface-hover: rgba(235, 242, 248, 0.075);
 
-    /* Поверхности */
-    --surface: rgba(235, 242, 248, 0.045);
-    --surface-hover: rgba(235, 242, 248, 0.075);
+  /* Текст */
+  --text: #edf2f7;
+  --text-secondary: #b7c2ce;
+  --text-muted: #7d8995;
 
-    /* Текст */
-    --text: #edf2f7;
-    --text-secondary: #b7c2ce;
-    --text-muted: #7d8995;
+  /* Границы */
+  --border-color: rgba(255, 255, 255, 0.095);
 
-    /* Границы */
-    --border-color: rgba(255, 255, 255, 0.095);
+  /* Акцент */
+  --accent: #aebeff;
+  --accent-hover: #c2ceff;
+  --accent-text: #252c35;
 
-    /* Акцент */
-    --accent: #aebeff;
-    --accent-hover: #c2ceff;
-    --accent-text: #252c35;
+  /* Стекло */
+  --glass: rgba(235, 242, 248, 0.045);
+  --glass-strong: rgba(235, 242, 248, 0.075);
+  --glass-border: rgba(255, 255, 255, 0.095);
 
-    /* Стекло */
-    --glass: rgba(235, 242, 248, 0.045);
-    --glass-strong: rgba(235, 242, 248, 0.075);
-    --glass-border: rgba(255, 255, 255, 0.095);
+  /* Тени */
+  --shadow: 0 25px 60px rgba(0, 0, 0, 0.48);
 
-    /* Тени */
-    --shadow:
-        0 25px 60px rgba(0, 0, 0, 0.48);
+  --shadow-small: 0 0 20px rgba(0, 0, 0, 0.34);
+}
 
-    --shadow-small:
-        0 0 20px rgba(0, 0, 0, 0.34);
+body[data-theme="light"] {
+  .header__toggle {
+    left: 42px;
+  }
+}
+
+body[data-theme="dark"] {
+  .header__toggle {
+    left: 1px;
+  }
 }
