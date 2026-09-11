@@ -19,7 +19,7 @@ const cardsData = [
     logo: `${import.meta.env.BASE_URL}tech-icons/react-logo.svg`,
     title: "React",
     description: `
-      <p>Еще не знаю, но планирую изучить.</p>
+      <p>В процессе изучения.</p>
     `,
   },
   {
@@ -34,7 +34,7 @@ const cardsData = [
     logo: `${import.meta.env.BASE_URL}tech-icons/ts-logo.svg`,
     title: "TypeScript",
     description: `
-      <p>Еще не знаю, но планирую изучить.</p>
+      <p>В процессе изучения.</p>
     `,
   },
   {
@@ -57,7 +57,7 @@ const cardsData = [
     logo: `${import.meta.env.BASE_URL}tech-icons/tailwind-logo.svg`,
     title: "Tailwind",
     description: `
-      <p>Еще не знаю, но планирую изучить.</p>
+      <p>В процессе изучения.</p>
     `,
   },
 ];
