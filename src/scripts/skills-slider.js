@@ -34,7 +34,10 @@ const cardsData = [
     logo: `${import.meta.env.BASE_URL}tech-icons/ts-logo.svg`,
     title: "TypeScript",
     description: `
-      <p>В процессе изучения.</p>
+      <p>Generics</p>
+      <p>Union Types и Discriminated Unions</p>
+      <p>Custom Type Guards</p>
+      <p>Type Narrowing</p>
     `,
   },
   {
